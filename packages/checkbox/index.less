@@ -1,0 +1,36 @@
+@import '../style/var';
+
+.h-checkbox {
+  user-select: none;
+  width: 305px;
+  font-size:16px;
+  color:@black;
+  line-height:24px;
+  padding: 8px 27px;
+  box-sizing: border-box;
+  transition: all .4s ease;
+  user-select:none;
+  &+.h-checkbox {
+    margin-top: 10px;
+  }
+  &::after {
+    border-radius:16px;
+    transition: all .4s ease;
+  }
+  &--center {
+    text-align: center;
+  }
+  &--checked {
+    font-weight: bold;
+    color: @default;
+    animation: button .4s ease;
+    transition: all .4s ease;
+    &::after {
+      border-color: @default;
+      border-width: 2px;
+    }
+  }
+  &--disabled {
+    opacity: .4;
+  }
+}

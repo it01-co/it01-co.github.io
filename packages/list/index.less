@@ -1,0 +1,34 @@
+@import '../style/var';
+
+.h-list {
+  &__loading,
+  &__loading-text,
+  &__error-text,
+  &__finished-text {
+    color: @list-text-color;
+    font-size: @list-text-font-size;
+    line-height: @list-text-line-height;
+    text-align: center;
+  }
+
+  &__placeholder {
+    height: 0;
+    pointer-events: none;
+  }
+
+  &__loading {
+    text-align: center;
+
+    &-icon,
+    &-text {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &-icon {
+      width: @list-icon-size;
+      height: @list-icon-size;
+      margin-right: @list-icon-margin-right;
+    }
+  }
+}

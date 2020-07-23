@@ -1,0 +1,406 @@
+{
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/type": {
+    "description": "类型，可选值为, default: string",
+    "type": "primary"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/size": {
+    "description": "尺寸，可选值为, default: small",
+    "type": "large"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/text": {
+    "description": "文字, default: -",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/tag": {
+    "description": "html 标签, default: button",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/native-type": {
+    "description": "原生 type 属性, default: -",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/disabled": {
+    "description": "是否禁用按钮, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/loading": {
+    "description": "是否显示为加载状态, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/plain": {
+    "description": "是否为朴素按钮, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/square": {
+    "description": "是否为方形按钮, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/round": {
+    "description": "是否为圆形按钮, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/animationdisplay": {
+    "description": "是否显示动画, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md/click": {
+    "description": "点击按钮且按钮状态不为加载或禁用时触发, params: -",
+    "type": "event"
+  },
+  "h-cell-group/border": {
+    "description": "是否显示外边框, default: true",
+    "type": "boolean"
+  },
+  "h-cell/icon": {
+    "description": "左侧图标名称或图片链接，可选值见 icon 组件, default: -",
+    "type": "string"
+  },
+  "h-cell/title": {
+    "description": "左侧标题, default: -",
+    "type": "string|number"
+  },
+  "h-cell/value": {
+    "description": "右侧内容, default: -",
+    "type": "string|number"
+  },
+  "h-cell/label": {
+    "description": "标题下方的描述信息, default: -",
+    "type": "string"
+  },
+  "h-cell/size": {
+    "description": "单元格大小，可选值为, default: string",
+    "type": "large"
+  },
+  "h-cell/url": {
+    "description": "跳转链接, default: -",
+    "type": "string"
+  },
+  "h-cell/to": {
+    "description": "路由跳转对象，同, default: 的 to",
+    "type": "vue-router"
+  },
+  "h-cell/border": {
+    "description": "是否显示内边框, default: true",
+    "type": "boolean"
+  },
+  "h-cell/replace": {
+    "description": "跳转时是否替换当前页面历史, default: false",
+    "type": "string"
+  },
+  "h-cell/clickable": {
+    "description": "是否开启点击反馈, default: false",
+    "type": "boolean"
+  },
+  "h-cell/is-link": {
+    "description": "是否展示右侧箭头并开启点击反馈, default: false",
+    "type": "boolean"
+  },
+  "h-cell/required": {
+    "description": "是否显示表单必填星号, default: false",
+    "type": "boolean"
+  },
+  "h-cell/center": {
+    "description": "是否使内容垂直居中, default: false",
+    "type": "boolean"
+  },
+  "h-cell/arrow-direction": {
+    "description": "箭头方向，可选值为, default: up",
+    "type": "left"
+  },
+  "h-cell/title-class": {
+    "description": "左侧标题额外类名, default: -",
+    "type": "string"
+  },
+  "h-cell/value-class": {
+    "description": "右侧内容额外类名, default: -",
+    "type": "string"
+  },
+  "h-cell/label-class": {
+    "description": "描述信息额外类名, default: -",
+    "type": "string"
+  },
+  "h-cell/click": {
+    "description": "点击单元格时触发, params: -",
+    "type": "event"
+  },
+  "h-checkbox/name": {
+    "description": "标识符, default: -",
+    "type": "any"
+  },
+  "h-checkbox/unique": {
+    "description": "是否有互斥, default: false",
+    "type": "boolean"
+  },
+  "h-checkbox/v-model": {
+    "description": "是否为选中状态, default: false",
+    "type": "boolean"
+  },
+  "h-checkbox/disabled": {
+    "description": "是否禁用单选框, default: false",
+    "type": "boolean"
+  },
+  "h-checkbox/change": {
+    "description": "当绑定值变化时触发的事件, params: 当前组件的值",
+    "type": "event"
+  },
+  "h-checkbox-group/v-model": {
+    "description": "所有选中项的标识符, default: -",
+    "type": "array"
+  },
+  "h-checkbox-group/disabled": {
+    "description": "是否禁用所有单选框, default: false",
+    "type": "boolean"
+  },
+  "h-checkbox-group/max": {
+    "description": "设置最大可选数，0 为无限制, default: 0",
+    "type": "number"
+  },
+  "h-checkbox-group/size": {
+    "description": "圆角的选择，可选, default: string",
+    "type": "round"
+  },
+  "h-checkbox-group/change": {
+    "description": "当绑定值变化时触发的事件, params: 当前组件的值",
+    "type": "event"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md/name": {
+    "description": "图标名称或图片链接, default: -",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md/info": {
+    "description": "图标右上角文字提示, default: -",
+    "type": "string|number"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md/color": {
+    "description": "图标颜色, default: inherit",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md/size": {
+    "description": "图标大小，如, default: 2em",
+    "type": "20px"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md/class-prefix": {
+    "description": "类名前缀, default: h-icon",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md/click": {
+    "description": "点击图标时触发, params: -",
+    "type": "event"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/loading": {
+    "description": "是否处于加载状态，加载过程中不触发, default: 事件",
+    "type": "load"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/finished": {
+    "description": "是否已加载完成，加载完成后不再触发, default: 事件",
+    "type": "load"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/offset": {
+    "description": "滚动条与底部距离小于 offset 时触发, default: 事件",
+    "type": "load"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/loading-text": {
+    "description": "加载过程中的提示文案, default: 加载中...",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/finished-text": {
+    "description": "加载完成后的提示文案, default: -",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/immediate-check": {
+    "description": "是否在初始化时立即执行滚动位置检查, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md/load": {
+    "description": "滚动条与底部距离小于 offset 时触发, params: -",
+    "type": "event"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/title": {
+    "description": "标题, default: ''",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/left-text": {
+    "description": "左侧文案, default: ''",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/right-text": {
+    "description": "右侧文案, default: ''",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/left-arrow": {
+    "description": "是否显示左侧箭头, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/fixed": {
+    "description": "是否固定在顶部, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/border": {
+    "description": "是否显示下边框, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/z-index": {
+    "description": "元素 z-index, default: 1",
+    "type": "number"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/click-left": {
+    "description": "点击左侧按钮时触发, params: -",
+    "type": "event"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md/click-right": {
+    "description": "点击右侧按钮时触发, params: -",
+    "type": "event"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/v-model": {
+    "description": "当前组件是否显示, default: false",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/overlay": {
+    "description": "是否显示蒙层, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/position": {
+    "description": "位置，可选值为, default: bottom",
+    "type": "top"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/round": {
+    "description": "圆角显示，自动匹配各个位置, default: 2rem",
+    "type": "20px"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/overlay-class": {
+    "description": "自定义蒙层类名, default: -",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/overlay-style": {
+    "description": "自定义蒙层样式, default: -",
+    "type": "object"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/transition": {
+    "description": "transition 名称, default: -",
+    "type": "string"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/get-container": {
+    "description": "指定挂载的节点，可以传入选择器，<br>或一个返回节点的函数, default: -",
+    "type": "string|() => htmlelement"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/close-on-click-overlay": {
+    "description": "是否在点击蒙层后关闭, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/lock-scroll": {
+    "description": "是否锁定背景滚动, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/lazy-render": {
+    "description": "是否在显示弹层时才渲染节点, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md/click-overlay": {
+    "description": "点击蒙层时触发, params: -",
+    "type": "event"
+  },
+  "h-radio/name": {
+    "description": "标识符, default: -",
+    "type": "任意类型"
+  },
+  "h-radio/disabled": {
+    "description": "是否为禁用状态, default: false",
+    "type": "boolean"
+  },
+  "h-radio/custom": {
+    "description": "是否为自定义, default: false",
+    "type": "boolean"
+  },
+  "h-radio-group/v-model": {
+    "description": "当前选中项的标识符, default: -",
+    "type": "任意类型"
+  },
+  "h-radio-group/disabled": {
+    "description": "是否禁用所有单选框, default: false",
+    "type": "boolean"
+  },
+  "h-radio-group/size": {
+    "description": "圆角的选择，可选, default: string",
+    "type": "round"
+  },
+  "h-radio-group/change": {
+    "description": "当绑定值变化时触发的事件, params: 当前选中项的 name",
+    "type": "event"
+  },
+  "h-tabs/v-model": {
+    "description": "当前标签的索引, default: number",
+    "type": "string"
+  },
+  "h-tabs/type": {
+    "description": "样式类型，可选值为, default: string",
+    "type": "top"
+  },
+  "h-tabs/duration": {
+    "description": "动画时间，单位秒, default: 0.32",
+    "type": "number"
+  },
+  "h-tabs/line-width": {
+    "description": "底部条宽度，单位 px, default: -",
+    "type": "number"
+  },
+  "h-tabs/swipeable": {
+    "description": "是否开启手势滑动切换, default: false",
+    "type": "boolean"
+  },
+  "h-tabs/sticky": {
+    "description": "是否使用粘性定位布局, default: false",
+    "type": "boolean"
+  },
+  "h-tabs/offset-top": {
+    "description": "粘性定位布局下与顶部的最小距离，单位 px, default: 0",
+    "type": "number"
+  },
+  "h-tabs/swipe-threshold": {
+    "description": "滚动阈值，标签数量超过多少个可滚动, default: 4",
+    "type": "number"
+  },
+  "h-tabs/animated": {
+    "description": "是否开启切换标签内容时的转场动画, default: false",
+    "type": "boolean"
+  },
+  "h-tabs/ellipsis": {
+    "description": "是否省略过长的标题文字, default: true",
+    "type": "boolean"
+  },
+  "h-tabs/shadow": {
+    "description": "是否显示左右阴影, default: true",
+    "type": "boolean"
+  },
+  "h-tabs/click": {
+    "description": "点击标签时触发, params: index：标签索引，title：标题",
+    "type": "event"
+  },
+  "h-tabs/change": {
+    "description": "当前激活的标签改变时触发, params: index：标签索引，title：标题",
+    "type": "event"
+  },
+  "h-tabs/disabled": {
+    "description": "点击被禁用的标签时触发, params: index：标签索引，title：标题",
+    "type": "event"
+  },
+  "h-tabs/scroll": {
+    "description": "滚动时触发, params: { scrolltop: 距离顶部位置, isfixed: 是否吸顶 }",
+    "type": "event"
+  },
+  "h-tab/title": {
+    "description": "标题, default: -",
+    "type": "string"
+  },
+  "h-tab/disabled": {
+    "description": "是否禁用标签, default: false",
+    "type": "boolean"
+  },
+  "h-tab/average": {
+    "description": "是否等分, default: true",
+    "type": "boolean"
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\tag\\zh-CN.md/select": {
+    "description": "目前只支持一种样式, default: false",
+    "type": "boolean"
+  }
+}

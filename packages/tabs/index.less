@@ -1,0 +1,159 @@
+@import '../style/var';
+
+.h-tab {
+  cursor: pointer;
+  min-width: 0; // hack for flex ellipsis
+  font-size: 17px;
+  position: relative;
+  color: @gray-darker;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 14px;
+  &--average {
+    flex: 1;
+  }
+
+  &--active {
+    font-weight: bold;
+    color: @black;
+  }
+
+  &--disabled {
+    color: @gray;
+  }
+}
+
+.h-tabs {
+  position: relative;
+  &__wrap {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    overflow: hidden;
+    position: absolute;
+    .bc {
+      padding: 0 3px;
+      box-sizing: border-box;
+      height: 100%;
+      background-color: transparent;
+    }
+    &--shadow {
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 100%;
+        z-index: 222;
+        background:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 100%;
+        z-index: 222;
+        background:linear-gradient(90deg,rgba(255,255,255,1) 0% ,rgba(255,255,255,0) 100%);
+      }
+    }
+    &--page-top {
+      position: fixed;
+    }
+
+    &--content-bottom {
+      top: auto;
+      bottom: 0;
+    }
+
+    &--scrollable {
+      .h-tab {
+        flex: 0 0 22%;
+
+        &--complete {
+          flex: 1 0 auto;
+        }
+      }
+
+      .h-tabs__nav {
+        overflow: hidden;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    user-select: none;
+    position: relative;
+    background-color: #fff;
+    &--middle {
+      height: 100%;
+      padding-bottom: 15px; /* 15px padding to hide scrollbar in mobile safari */
+      box-sizing: content-box;
+      .h-tab {
+        line-height: 50px;
+      }
+    }
+    &--top {
+      height: 100%;
+      padding-bottom: 15px; /* 15px padding to hide scrollbar in mobile safari */
+      box-sizing: content-box;
+      .h-tab {
+        padding-top: 5px;
+      }
+    }
+
+  }
+
+  &__line {
+    z-index: 1;
+    left: 0;
+    bottom: 15px;
+    height: 4px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: @default;
+  }
+
+  &__content {
+    &--animated {
+      overflow: hidden;
+    }
+  }
+
+  &__track {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    will-change: left;
+  }
+
+  &--middle {
+    padding-top: 50px;
+    .h-tabs__wrap {
+      height: 50px;
+    }
+  }
+  &--top {
+    padding-top: 36px;
+    .h-tabs__wrap {
+      height: 36px;
+    }
+  }
+
+  .h-tab__pane {
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+}

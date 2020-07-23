@@ -1,0 +1,80 @@
+@import '../style/var';
+
+.h-toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  width: 260px;
+  font-size:18px;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:26px;
+  word-break: break-all;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: content-box;
+  transform: translate3d(-50%, -50%, 0);
+  background:rgba(0,0,0,1);
+  opacity: .7;
+  text-align: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  &--unclickable {
+    * {
+      pointer-events: none;
+    }
+  }
+  &--fillet {
+    border-radius: 25px;
+  }
+  &--top {
+    top: 50px;
+  }
+
+  &--bottom {
+    top: auto;
+    bottom: 50px;
+  }
+}
+@keyframes h-fade-toas-in {
+  0% {
+    transform: translate3d(-50%, -50%, 0) scale(0);
+    backface-visibility: hidden;
+  }
+  60% {
+    transform: translate3d(-50%, -50%, 0) scale(1.04);
+    backface-visibility: hidden;
+  }
+  80% {
+    transform: translate3d(-50%, -50%, 0) scale(.96);
+    backface-visibility: hidden;
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) scale(1);
+    backface-visibility: hidden;
+  }
+}
+@keyframes h-fade-toas-out {
+  from {
+    transform: translate3d(-50%, -50%, 0) scale(1);
+    backface-visibility: hidden;
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(-50%, -50%, 0) scale(0);
+    backface-visibility: hidden;
+    opacity: 0;
+  }
+}
+.h-fade-toast {
+  &-enter-active {
+    animation: .24s h-fade-toas-in ease;
+  }
+
+  &-leave-active {
+    animation: .24s h-fade-toas-out ease;
+  }
+}

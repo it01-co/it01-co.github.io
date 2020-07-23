@@ -1,0 +1,17 @@
+@import '../style/var';
+@import './font.less';
+.h-icon {
+  position: relative;
+  &::before{
+    display: inline-block;
+  }
+  &--image {
+    width: 1em;
+    height: 1em;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}

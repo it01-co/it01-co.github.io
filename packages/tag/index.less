@@ -1,0 +1,53 @@
+@import '../style/var';
+
+.h-tag {
+  display: inline-block;
+  &--select {
+    width: auto;
+    font-weight:bold;
+    height: 34px;
+    line-height:14px;
+    text-align: center;
+    padding: 10px 20px 10px 15px;
+    border-radius:17px 17px 17px 0px;
+    box-sizing: border-box;
+    color: @white;
+    background-color: @default;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top-width: 3px;
+      border-top-style: solid;
+      border-top-color: @blue;
+      border-left: 10px solid transparent; 
+      left: 0;
+      bottom: -3px;
+    }
+  }
+  &--clear {
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+    color:#262626;
+    line-height: 21px;
+    padding: 3.5px 31px 3.5px 10px;
+    word-break: break-all;
+    background:rgba(222,150,72,0.08);
+    border-radius:14px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .icon__clear {
+      font-size: 14px;
+      color: #CCCCCC;
+      margin-left: 8px;
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

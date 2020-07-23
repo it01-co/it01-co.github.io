@@ -1,0 +1,173 @@
+{
+  "h-E:\\20190102\\中医\\health\\packages\\button\\zh-CN.md": {
+    "description": "Button 按钮",
+    "attributes": [
+      "type",
+      "size",
+      "text",
+      "tag",
+      "native-type",
+      "disabled",
+      "loading",
+      "plain",
+      "square",
+      "round",
+      "animationdisplay",
+      "click"
+    ]
+  },
+  "h-cell-group": {
+    "description": "Cell 单元格",
+    "attributes": [
+      "border"
+    ]
+  },
+  "h-cell": {
+    "description": "Cell 单元格",
+    "attributes": [
+      "icon",
+      "title",
+      "value",
+      "label",
+      "size",
+      "url",
+      "to",
+      "border",
+      "replace",
+      "clickable",
+      "is-link",
+      "required",
+      "center",
+      "arrow-direction",
+      "title-class",
+      "value-class",
+      "label-class",
+      "click"
+    ]
+  },
+  "h-checkbox": {
+    "description": "Checkbox 复选框",
+    "attributes": [
+      "name",
+      "unique",
+      "v-model",
+      "disabled",
+      "change"
+    ]
+  },
+  "h-checkbox-group": {
+    "description": "Checkbox 复选框",
+    "attributes": [
+      "v-model",
+      "disabled",
+      "max",
+      "size",
+      "change"
+    ]
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\icon\\zh-CN.md": {
+    "description": "Icon 图标",
+    "attributes": [
+      "name",
+      "info",
+      "color",
+      "size",
+      "class-prefix",
+      "click"
+    ]
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\list\\zh-CN.md": {
+    "description": "List 列表",
+    "attributes": [
+      "loading",
+      "finished",
+      "offset",
+      "loading-text",
+      "finished-text",
+      "immediate-check",
+      "load"
+    ]
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\nav-bar\\zh-CN.md": {
+    "description": "NavBar 导航栏",
+    "attributes": [
+      "title",
+      "left-text",
+      "right-text",
+      "left-arrow",
+      "fixed",
+      "border",
+      "z-index",
+      "click-left",
+      "click-right"
+    ]
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\popup\\zh-CN.md": {
+    "description": "Popup 弹出层",
+    "attributes": [
+      "v-model",
+      "overlay",
+      "position",
+      "round",
+      "overlay-class",
+      "overlay-style",
+      "transition",
+      "get-container",
+      "close-on-click-overlay",
+      "lock-scroll",
+      "lazy-render",
+      "click-overlay"
+    ]
+  },
+  "h-radio": {
+    "description": "Radio 单选框",
+    "attributes": [
+      "name",
+      "disabled",
+      "custom"
+    ]
+  },
+  "h-radio-group": {
+    "description": "Radio 单选框",
+    "attributes": [
+      "v-model",
+      "disabled",
+      "size",
+      "change"
+    ]
+  },
+  "h-tabs": {
+    "description": "Tab 标签页",
+    "attributes": [
+      "v-model",
+      "type",
+      "duration",
+      "line-width",
+      "swipeable",
+      "sticky",
+      "offset-top",
+      "swipe-threshold",
+      "animated",
+      "ellipsis",
+      "shadow",
+      "click",
+      "change",
+      "disabled",
+      "scroll"
+    ]
+  },
+  "h-tab": {
+    "description": "Tab 标签页",
+    "attributes": [
+      "title",
+      "disabled",
+      "average"
+    ]
+  },
+  "h-E:\\20190102\\中医\\health\\packages\\tag\\zh-CN.md": {
+    "description": "Tag 标记",
+    "attributes": [
+      "select"
+    ]
+  }
+}

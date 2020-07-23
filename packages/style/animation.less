@@ -1,0 +1,169 @@
+@keyframes button{  // 总运动时长.4s
+  0%{
+    transform: scale(1);
+    backface-visibility: hidden;
+  }
+  42%{
+    transform: scale(.95);
+    backface-visibility: hidden;
+  }
+  100%{
+    transform: scale(1);
+    backface-visibility: hidden;
+  }
+}
+
+@keyframes h-slide-up-enter {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes h-slide-up-leave {
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes h-slide-down-enter {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes h-slide-down-leave {
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes h-slide-left-enter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes h-slide-left-leave {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes h-slide-right-enter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes h-slide-right-leave {
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes h-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes h-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes h-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h-fade {
+  &-enter-active {
+    animation: .28s h-fade-in;
+  }
+
+  &-leave-active {
+    animation: .28s h-fade-out;
+  }
+}
+
+.h-zoom{
+  &-enter, &-leave-to{
+    opacity: 0.01;
+    transform: scale(0.75);
+  }
+  &-enter-active{
+    transition: all 300h cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  &-leave-active{
+    transition: all 250h linear;
+  }
+}
+  
+
+.h-punch{
+  &-enter, &-leave-to{
+    opacity: 0.01;
+    transform: scale(1.35);
+  }
+  &-enter-active{
+    transition: all 300h cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  &-leave-active{
+    transition: all 250h linear;
+  }
+}
+  
+.h-slide-up {
+  &-enter-active {
+    animation: h-slide-up-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: h-slide-up-leave .3s both ease;
+  }
+}
+
+.h-slide-down {
+  &-enter-active {
+    animation: h-slide-down-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: h-slide-down-leave .3s both ease;
+  }
+}
+
+.h-slide-left {
+  &-enter-active {
+    animation: h-slide-left-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: h-slide-left-leave .3s both ease;
+  }
+}
+
+.h-slide-right {
+  &-enter-active {
+    animation: h-slide-right-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: h-slide-right-leave .3s both ease;
+  }
+}
