@@ -11,7 +11,7 @@ module.exports = {
         href: '#/'
       },
       nav: {
-        gitlab: "https://gitlab.jiankangyouyi.com/h5-dev/health-ui",
+        github: "https://github.com/it01-co/HUI",
         lang: {
           text: 'En',
           from: 'zh-CN',
@@ -187,7 +187,7 @@ module.exports = {
         href: '#/'
       },
       nav: {
-        gitlab: "https://gitlab.jiankangyouyi.com/h5-dev/health-ui",
+        github: "https://github.com/it01-co/HUI",
         lang: {
           text: '中文',
           from: 'en-US',
