@@ -13,7 +13,7 @@ npm install h-touch-emulator health-compiler health-doc  -D
 npm install h-markdown-loader -S
 ```
 
-### 部署(目前不区分生产和测试)
+### 部署
 
 编译后的包为dist 位置：/docs/dist
 
