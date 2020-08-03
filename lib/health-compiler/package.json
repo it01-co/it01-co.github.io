@@ -1,0 +1,35 @@
+{
+  "name": "health-compiler",
+  "version": "0.0.1",
+  "description": "compile vue single file component to js file.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "babel src --out-dir lib",
+    "release": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "sfc",
+    "compile",
+    "vue",
+    "component"
+  ],
+  "author": "haotengfei",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue-template-compiler": ">=2.5.0",
+    "vue-template-es2015-compiler": ">=1.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "vue-template-compiler": "^2.5.21",
+    "vue-template-es2015-compiler": "^1.6.0"
+  },
+  "dependencies": {}
+}

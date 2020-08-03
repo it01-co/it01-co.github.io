@@ -1,0 +1,17 @@
+{
+  "name": "h-touch-emulator",
+  "version": "0.1.1",
+  "description": "health touch emulator",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "haotengfei",
+  "keywords": [
+    "health-doc",
+    "vue",
+    "health-ui",
+    "h-touch-emulator"
+  ],
+  "scripts": {
+    "release": "npm publish"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "health-doc",
+  "version": "0.1.7",
+  "description": "health-ui文档容器",
+  "main": "./lib/hdoc.umd.min.js",
+  "author": "haotengfei",
+  "license": "ISC",
+  "keywords": [
+    "health-doc",
+    "vue",
+    "health-ui"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name hdoc --dest lib src/index.js",
+    "release": "npm run lib && npm publish",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.3.2",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
